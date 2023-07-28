@@ -1,35 +1,35 @@
-﻿**Descrizione**
+**Introduction**
+The code in this repository represents the result of research and development work carried out in the field during the implementation of the dissertation, which focused on the implementation of an innovative application for training patients with autism spectrum disorders (ASD). The code was implemented and leveraged to work on the humanoid robot Pepper from Softbank Robotics.
 
-Questa cartella contiene il codice sorgente per il training di pazienti affetti da disturbi dello spettro
-autistico (DSA). Nello specifico sono stati realizzati ed implementati due test molto diffusi:
+ **Description**
 
-• Test sulla Discriminazione uditiva
-• Test della Torre di Londra (TOL)
+Specifically, two popular tests have been created and implemented:
 
-**Requisiti di sistema**
+- Auditory Discrimination Test
+- Tower of London (TOL) test.
+- 
+**System Requirements**
 
-Per eseguire correttamente il progetto, sono necessari i seguenti requisiti di sistema:
+To run the project properly, the following system requirements are needed:
 
-- **Sistema operativo**: Windows 10/11 (preferibile), Linux, MacOS (scarsa compatibilità a partire dai chip M1).
-- **Software**: Choregraphe (consigliata versione 2.5)
+- **Sistema operativo**: Windows 10/11 (preferred), Linux, macOS (poor compatibility from M1 chips).
+- **Software**: Choregraphe (version 2.5 recommended)
 - **Pacchetti**: PepperSDK
 
-## **Struttura del progetto**
-Il progetto è organizzato secondo la seguente struttura:
+## **Project structure**
+The project is organized as follows:
 
-- **\SomministrazioneTest:** contiene il codice per Pepper implementato in Choregraphe per la somministrazione dei due test citati prima.
-- **\fotoTOL:** cartella contenente le foto mostrate sul tablet di Pepper durante la somministrazione del test della Torre di Londra (TOL)
+- **\SomministrazioneTest:** contains the code for Pepper implemented in Choregraphe for administering the two tests mentioned earlier.
+- **\fotoTOL:** Folder containing photos shown on Pepper's tablet during the administration of the Tower of London (TOL) test
 
-## **Utilizzo**
-Per avviare il progetto, segui i seguenti passaggi:
+## **Code Usage**
+To start the project, follow the steps below:
 
-1. Avvia il sw Choregraphe
-1. Controlla che il tuo pc sia collegato sulla stessa sottorete di Pepper
-1. Clicca sul pulsante verde “Connect to…” per connettere il Pepper
-1. Comparirà una nuova schermata che permetterà di cliccare la tua versione di pepper e di poter immettere l’ip del robot e la sua porta. Consiglio di mantenere la porta settata su default. Mentre l’IP deve essere pronunciato da pepper, premendo il pulsante che ha sotto il tablet. 
-
-1. Fatto questo, clicca sul pulsante “*Select*” e il programma verrà connesso al robot. Te ne accorgerai che sarà connesso solo quando noterai in alto a sinistra la frase (Connected to “IPaddres”). Il tuo robot poi apparirà nella **vista Robot** (Robot view).
-1. A questo punto puoi caricare la cartella *SomministrazioneTest* in alto a sinistra cliccando l’icona della cartella (Open Project) e ti verrà caricato nel programma.
-1. Il file specifico da aprire è **SomministrazioneTest.pml**
-
+1. Start the sw Choregraphe
+2. Check that your pc is connected on the same subnet as Pepper's
+3. Click on the green "Connect to..." button to connect the Pepper robot
+4. A new screen will appear that will allow you to click your version of pepper and be able to enter the robot's ip and its port. I recommend keeping the port set to default. While the ip must be spoken by pepper by pressing the button it has under the tablet. 
+5. With that done, click on the "*Select*" button and the program will be connected to the robot. You will only realize it is connected when you notice in the upper left corner the phrase (Connected to "IPaddres"). Your robot will then appear in the **Robot view** (Robot view).
+6. At this point you can load the *SomministrazioneTest* folder in the upper left corner by clicking the folder icon (Open Project) and it will be loaded into the program.
+7. The specific file to open is **SomministrazioneTest.pml**
 
