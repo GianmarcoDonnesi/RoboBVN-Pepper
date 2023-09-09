@@ -15,7 +15,7 @@ Specifically, two popular tests have been created and implemented:
 
 To run the project properly, the following system requirements are needed:
 
-- **Operating system**: Windows 10/11 (preferred), Linux, macOS (poor compatibility from M1 chips).
+- **Operating system**: Windows 10/11 (preferred), Linux, macOS (low compatibility from M1 chips).
 - **Software**: Choregraphe (version 2.5 recommended)
 - **Packages**: PepperSDK
 
