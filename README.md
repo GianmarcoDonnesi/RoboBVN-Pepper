@@ -1,6 +1,6 @@
 ## **Introduction**
 
-The code in this repository represents the result of research and development work carried out in the field during the implementation of the dissertation, which focused on the implementation of an innovative application for training patients with autism spectrum disorders (ASD). The code was implemented and leveraged to work on the humanoid robot Pepper from Softbank Robotics.
+The code in this repository represents the result of research and development work carried out in the field during the implementation of the dissertation, which focused on the implementation of an innovative application for training patients with autism spectrum disorders (ASD). The code was implemented and leveraged to work on the humanoid robot Pepper from Softbank Robotics. Link to the thesis repository: https://github.com/GianmarcoDonnesi/Bachelor-thesis-RoboBVN
 
 
  ## **Description**
